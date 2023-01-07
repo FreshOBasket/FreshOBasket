@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Home | Fresh o' Basket</title>
+		<title> Fruits | Fresh o' Basket</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="Images/Title.ico" type="image/x-icon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,18 +99,30 @@
 			border: 1px solid #ccc;  
 		  }
 		}
-		
 		.headlines{
 			margin-top: 5px;
 			margin-bottom: 5px;
 		}
-		.FrontImage{
+		.CatalogueImage{
+			padding: 2%;
+			border: 1px solid black;
+		}
+		.MenuDisplay{
 			margin: 5%;
 			padding: 2%;
-			
 		}
-		.FrontImage a:hover {
-		  opacity: 0.7;
+		.AddToCart{
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			width: 100%;
 		}
 		.footer{
 			padding: 1%;
@@ -130,8 +142,8 @@
 	<body style="background-color:white">
 		<div class="topnav">
 		<img src="Images/Title.png" height=40px style="align:right; margin:5px;">
-  		<a class="active" href="index.html">Home</a>
-		<a href="fruits.html">Fruits</a>
+  		<a href="index.html">Home</a>
+		<a class="active" href="fruits.html">Fruits</a>
 		<a href="vegetable.html">Vegetables</a>
 		<a href="grocery.html">Grocery</a>
 		<a href="Contact.html">Contact Us</a>
@@ -151,16 +163,99 @@
 				</marquee>
 		</div>
 		
-		<div class="FrontImage">
+		<div class="MenuDisplay">
 			<div class="row">
 				<div class="column">
-					<a href="fruits.html"><img src="Images/fruit.png" alt="FruitImage" style="width:100%"></a>
+					<div class="CatalogueImage">
+						<img src="Images/Fruits/apple.jpg" alt="Snow" style="width:100%">
+						<p>Apple <span style="float:right">&#8377 50-150</span></p>
+						<div class="button_select">
+							<select name="" id="">
+								<option value="1 kg">kilograms</option>
+								<option value="1 kg">1 kg</option>
+								<option value="1 kg">2 kg</option>
+								<option value="1 kg">5 kg</option>			
+							</select>
+						</div>
+						<button class="AddToCart">Add To Cart</button>
+					</div>
 				</div>
 				<div class="column">
-					<a href="vegetable.html"><img src="Images/vegetable.png" alt="VegetableImage" style="width:100%"></a>
+					<div class="CatalogueImage">
+						<img src="Images/Fruits/mango.jpg" alt="Snow" style="width:100%">
+						<p>Mango <span style="float:right">&#8377 50-150</span></p>
+						<div class="button_select">
+							<select name="" id="">
+								<option value="1 kg">kilograms</option>
+								<option value="1 kg">1 kg</option>
+								<option value="1 kg">2 kg</option>
+								<option value="1 kg">5 kg</option>			
+							</select>
+						</div>
+						<button class="AddToCart">Add To Cart</button>
+					</div>
 				</div>
 				<div class="column">
-					<a href="grocery.html"><img src="Images/grocery.png" alt="GroceryImage" style="width:100%"></a>
+					<div class="CatalogueImage">
+						<img src="Images/Fruits/banana.jpg" alt="Snow" style="width:100%">
+						<p>Banana <span style="float:right">&#8377 50-150</span></p>
+						<div class="button_select">
+							<select name="" id="">
+								<option value="1 kg">Dozen</option>
+								<option value="1 kg">1 kg</option>
+								<option value="1 kg">2 kg</option>
+								<option value="1 kg">5 kg</option>			
+							</select>
+						</div>
+						<button class="AddToCart">Add To Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<div class="CatalogueImage">
+						<img src="Images/Fruits/grapes.jpg" alt="Snow" style="width:100%">
+						<p>Grapes <span style="float:right">&#8377 50-150</span></p>
+						<div class="button_select">
+							<select name="" id="">
+								<option value="1 kg">kilograms</option>
+								<option value="1 kg">1 kg</option>
+								<option value="1 kg">2 kg</option>
+								<option value="1 kg">5 kg</option>			
+							</select>
+						</div>
+						<button class="AddToCart">Add To Cart</button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="CatalogueImage">
+						<img src="Images/Fruits/guava.jpg" alt="Snow" style="width:100%">
+						<p>Guava <span style="float:right">&#8377 50-150</span></p>
+						<div class="button_select">
+							<select name="" id="">
+								<option value="1 kg">kilograms</option>
+								<option value="1 kg">1 kg</option>
+								<option value="1 kg">2 kg</option>
+								<option value="1 kg">5 kg</option>			
+							</select>
+						</div>
+						<button class="AddToCart">Add To Cart</button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="CatalogueImage">
+						<img src="Images/Fruits/orange.jpeg" alt="Snow" style="width:100%">
+						<p>Orange <span style="float:right">&#8377 50-150</span></p>
+						<div class="button_select">
+							<select name="" id="">
+								<option value="1 kg">kilograms</option>
+								<option value="1 kg">1 kg</option>
+								<option value="1 kg">2 kg</option>
+								<option value="1 kg">5 kg</option>			
+							</select>
+						</div>
+						<button class="AddToCart">Add To Cart</button>
+					</div>
 				</div>
 			</div>
 		</div>
